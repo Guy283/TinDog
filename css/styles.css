@@ -1,0 +1,202 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-weight: 900;
+
+}
+
+
+/*  headings */
+
+.big-heading {
+    font-size: 3.5rem;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+}
+
+.features-header {
+    font-size: 2rem;
+}
+
+.features-text {
+    font-size: 1.2rem;
+}
+
+
+/* title */
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+.phone {
+    width: 50%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+.col-phone {
+    position: relative;
+}
+
+/* features */
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+
+.features-row {
+    padding: 4.5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* testimonial section */
+
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+}
+
+.dog-profile {
+    border-radius: 100%;
+    width: 20%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Press */
+
+#press {
+    padding-bottom: 3%;
+    background-color: #ef8172;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing {
+    padding-top: 5%;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.card-header {
+    color: white;
+    background-color: #ef8172;
+}
+
+.card {
+    height: 100%;
+    line-height: 80%;
+}
+
+.lab-button {
+    margin-top: 30px;
+}
+
+.chi-button {
+    margin-top: 50px;
+}
+
+
+/* cta */
+
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    padding: 5% 7%;
+}
+
+/* footer */
+
+#footer {
+    padding: 7%;
+}
+
+.footer-icon {
+    font-size: 2rem;
+    color: #ef8172;
+    padding: 2%;
+}
+
+.footer-icon:hover {
+    color: #ff4c68
+}
+
+.copyright {
+    font-size: 1.2rem;
+    padding-top: 3%;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .phone {
+        position: static;
+        transform: rotate(0deg);
+    }
+}
